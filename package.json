@@ -6,7 +6,8 @@
   "scripts": {
     "dev:package": "tsup src/index.tsx --watch",
     "prebuild": "rm -rf dist",
-    "build": "tsup"
+    "build": "tsup",
+    "lint": "biome check ."
   },
   "keywords": ["llm", "react"],
   "author": "Asaf Shakarzy",
@@ -38,5 +39,13 @@
         "default": "./dist/index.js"
       }
     }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md,ts,tsx}": [
+      "biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true"
+    ]
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
   }
 }
