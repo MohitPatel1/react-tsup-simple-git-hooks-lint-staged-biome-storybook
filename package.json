@@ -1,0 +1,30 @@
+{
+  "name": "@flux0-ai/react",
+  "version": "0.0.1",
+  "description": "Flux0 React toolkit.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev:package": "tsup src/index.tsx --watch",
+    "prebuild": "rm -rf dist",
+    "build": "tsup"
+  },
+  "keywords": [
+    "llm",
+    "react"
+  ],
+  "author": "Asaf Shakarzy",
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.5.2",
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
