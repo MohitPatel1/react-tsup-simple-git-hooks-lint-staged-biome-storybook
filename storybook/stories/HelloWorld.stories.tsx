@@ -1,4 +1,4 @@
-import { HelloWorldComponent } from "@flux0-ai/react";
+import { HelloWorldComponent } from "@mohit11/monad";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const meta = {

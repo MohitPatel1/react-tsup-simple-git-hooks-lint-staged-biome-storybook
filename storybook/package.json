@@ -1,7 +1,7 @@
 {
   "name": "storybook",
   "version": "1.0.0",
-  "description": "Storybooks for @flux0-ai/react",
+  "description": "Storybooks for @mohit11/monad",
   "main": "index.js",
   "scripts": {
     "dev": "storybook dev -p 6006",
@@ -21,6 +21,6 @@
     "storybook": "^8.6.12"
   },
   "dependencies": {
-    "@flux0-ai/react": "workspace:^"
+    "@mohit11/monad": "workspace:^"
   }
 }

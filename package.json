@@ -1,7 +1,7 @@
 {
-  "name": "@flux0-ai/react",
+  "name": "@mohit11/monad",
   "version": "0.0.1",
-  "description": "Flux0 React toolkit.",
+  "description": "Monad React toolkit.",
   "main": "dist/index.js",
   "scripts": {
     "dev:package": "tsup src/index.tsx --watch",

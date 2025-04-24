@@ -1,0 +1,6 @@
+---
+description: guide blog post
+globs: 
+alwaysApply: false
+---
+https://medium.com/%40asafshakarzy/setting-up-a-minimal-react-library-workspace-with-typescript-tsup-biome-and-storybook-e689f4703e26

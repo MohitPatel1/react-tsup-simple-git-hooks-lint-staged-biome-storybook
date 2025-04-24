@@ -41,7 +41,7 @@ importers:
 
   storybook:
     dependencies:
-      '@flux0-ai/react':
+      '@mohit11/monad':
         specifier: workspace:^
         version: link:..
     devDependencies:

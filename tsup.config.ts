@@ -4,7 +4,7 @@ const commons: Options = {
   sourcemap: true,
   dts: true,
   clean: true,
-  target: "es2018",
+  target: "esnext",
   external: ["react"],
   format: ["esm", "cjs"],
 };
