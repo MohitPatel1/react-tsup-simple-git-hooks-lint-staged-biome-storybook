@@ -7,7 +7,10 @@
     "dev:package": "tsup src/index.tsx --watch",
     "prebuild": "rm -rf dist",
     "build": "tsup",
-    "lint": "biome check ."
+    "lint": "biome check .",
+    "dev": "run-p dev:*",
+    "dev:storybook": "pnpm --filter storybook dev",
+    "build:storybook": "pnpm --filter storybook build"
   },
   "keywords": ["llm", "react"],
   "author": "Asaf Shakarzy",
@@ -18,6 +21,7 @@
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "lint-staged": "^15.5.1",
+    "npm-run-all": "^4.1.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "simple-git-hooks": "^2.13.0",

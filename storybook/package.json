@@ -1,0 +1,26 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "Storybooks for @flux0-ai/react",
+  "main": "index.js",
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "lint": "biome lint ."
+  },
+  "keywords": [],
+  "author": "Asaf Shakarzy",
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.5.2",
+  "devDependencies": {
+    "@storybook/addon-docs": "^8.6.12",
+    "@storybook/addon-essentials": "^8.6.12",
+    "@storybook/react": "^8.6.12",
+    "@storybook/react-vite": "^8.6.12",
+    "@storybook/theming": "^8.6.12",
+    "storybook": "^8.6.12"
+  },
+  "dependencies": {
+    "@flux0-ai/react": "workspace:^"
+  }
+}
