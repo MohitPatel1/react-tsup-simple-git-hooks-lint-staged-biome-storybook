@@ -1,0 +1,24 @@
+---
+description: folder structure
+globs: 
+alwaysApply: false
+---
+folder stucture like this
+
+/
+├── .cursor/             # Cursor IDE specific settings
+│   └── rules/           # Custom rules for the Cursor IDE
+├── dist/                # Compiled output directory
+├── src/                 # Source code directory
+│   └── index.tsx        # Main entry point for the library
+├── storybook/           # Storybook configuration and stories
+│   ├── .storybook/      # Storybook configuration
+│   └── stories/         # Component stories/examples
+├── .gitignore           # Git ignore file
+├── .npmrc               # NPM configuration
+├── biome.json           # Biome configuration (likely for formatting/linting)
+├── package.json         # Project dependencies and scripts
+├── pnpm-lock.yaml       # PNPM lock file
+├── pnpm-workspace.yaml  # PNPM workspace configuration
+├── tsconfig.json        # TypeScript configuration
+└── tsup.config.ts       # Build configuration using tsup
